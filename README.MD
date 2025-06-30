@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="./assets/GameForge.png"
+    src="./assets/cover.jpg"
     width="300"
 />
 </p>
