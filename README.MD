@@ -33,20 +33,49 @@ Utilizar uma esteira de prompts para gerar cada etapa do processo criativo.
 
 - Roteiro gerado via chatgpt
 - Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
+- Chat GPT para criar as capas (Ao invés do MidJourney)
 - Capcut para tratar aúdio e adicionar sons de fundo
 
-## 📚 Materiais
+## 🛠️ Prompts com a Instruções de execução
+- Nome do PodCast:
+-- Você é um roteirista de podcast, vamos criar um podcast de tecnologia focado no desenvolvimento de jogos eu gostaria de sua ajuda para criar 5 sugestões de nomes criativos para um podcast de uma comunidade composta por desenvolvedores iniciantes e avançados, artistas visuais e de áudio, designers de jogos e roteiristas de jogos, o podcast deve ter algum trocadilho nerd no nome.
 
-- [Link da live no Youtube](https://www.youtube.com)
-- [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+O podcast dará dicas de desenvolvimento de jogos, falando sobre engines, processos de gestão, ferramentas de arte e áudio, tecnologias disruptivas, Inteligência Artificial no contexto de jogos, etc.
 
+{REGRAS}
+> O nome deve ser enxuto, um nome e um subtítulo
+> O nome tenha algum trocadilho nerd com nomes de franquias conhecidas de jogos medievais
+> O nome deve conter alguma palavra forte que remeta à Guild
+> Crie variações do título e sub-título
+{REGRAS NEGATIVAS}
+> Não quero que o nome tenha palavras muito complexas
+> Não quero que utilize palavras que remetam à Java, frontend, apostas
+> Não use palavras em inglês no nome do PodCast
 
-## 🛠️ Instruções de execução
+>> Guild Forge 
+- O lugar da criação dos jogos e magia digital.
+- Ideias e ferramentas para moldar seus próprios mundos.
+- Onde cada episódio é um item lendário na sua bagagem de game dev.
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+- Após a seleção do nome GameForge, criação do logo:
+-- Crie um logo para o Podcast utilizando elementos medievais e modernos, que remetam à idéia do Podcast com um fone de ouvido como elemento central.
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
+- Criando um Roteiro para o episódio:
+- Você é um roteirista de pod cast de tecnologia focado no desenvolvimento de jogos cujo nome é "Game Forge - onde as ideias viram jogos" e tem foco em desenvolvedores iniciantes, artistas visuais e de áudio, designers de jogos e roteiristas de jogos.
+o formato do roteiro deve ser:
+[Introdução]
+[Curiosidade 1]
+[Curiosidade 2]
+[Finalização]
+
+{Regras}
+* no bloco [Introdução] crie uma introdução chamativa, destacando a participação da comunidade GameGuild como muito importante para o podcast, crie um texto parecido com as introduções dos vídeos do canal "ei nerd" mas focado no desenvolvimento de jogos.
+* no bloco [Curiosidade 1] substitua por uma curiosidade sobre Game Engines
+* no bloco [Curiosidade 1] substitua por uma curiosidade sobre Ferramentas de Gestão
+* no bloco [Finalização] crie uma despedida amigável e inclua algo como "Eu sou o BudaSurtado e a gente se vê no próximo episódio."
+* use termos simples
+* o podcast deve ter entre 10 e 15 minutos
+* o podcast vai ter como apresentador o Budasurtado e um convidado 
+{Regras negativas}
+* não use termos técnicos
+* não use palavras complexas
